@@ -98,7 +98,7 @@
   
   Genre: Top-Down Shooter
   
-  Difficulty level: I think this game is easiest to copy
+  Difficulty level: I think this game is easiest to copy, and I will try to make it
 
   Link: [Tekla](https://store.steampowered.com/app/1871430/Tekla/) 
   
