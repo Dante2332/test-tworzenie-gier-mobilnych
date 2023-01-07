@@ -105,7 +105,7 @@
   Gameplay: [Gameplay](https://www.youtube.com/watch?v=gOrwlsVA4OM&ab_channel=Pharmit24)
   
   ### Pitch
-  Fight your way through endless waves of enemies, dodge their bullets, and score as much points as you can.
+  Fight through endless waves of enemies, dodge their bullets, and score as much points as you can.
   
   ### Bibliography
   Udemy - [Link](https://www.udemy.com/course/unitycourse/]
