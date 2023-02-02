@@ -232,8 +232,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 794741699}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.02, y: -0.02, z: 0}
+  m_LocalScale: {x: 0.9024541, y: 1.0107849, z: 0.99116}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1530959662}
@@ -322,7 +322,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waveConfigs:
   - {fileID: 11400000, guid: bd18530ebe32d5e4a97f58faa241a11d, type: 2}
-  - {fileID: 11400000, guid: bd18530ebe32d5e4a97f58faa241a11d, type: 2}
+  - {fileID: 11400000, guid: 0d2c36769457cb3469037042c1919200, type: 2}
   timeBetweenWaves: 0
   isLooping: 1
 --- !u!4 &1421308738
@@ -382,6 +382,14 @@ PrefabInstance:
     - target: {fileID: 1602697739642264143, guid: 7531c8593abca4c4fbd50335b489abe7, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3630664420323237270, guid: 7531c8593abca4c4fbd50335b489abe7, type: 3}
+      propertyPath: moveSpeed
+      value: 5.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3630664420323237270, guid: 7531c8593abca4c4fbd50335b489abe7, type: 3}
+      propertyPath: paddingTop
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7223355905975577132, guid: 7531c8593abca4c4fbd50335b489abe7, type: 3}
       propertyPath: m_RootOrder
