@@ -94,13 +94,18 @@
   
   Gameplay: [Gameplay](https://www.youtube.com/watch?v=-CwEZvnte0Q&ab_channel=FullThrough)
   
-- ##### Tekla
+- ##### Space Shooter - Galaxy Attack
   
-  Genre: Top-Down Shooter
+  Genre: Space Shooter
   
-  Difficulty level: I think this game is easiest to copy, and I will try to make it
+  Difficulty level:  I will try to make something like that
 
-  Store: [Tekla](https://store.steampowered.com/app/1871430/Tekla/) 
+  Store: [Space Shooter - Galaxy Attack](https://play.google.com/store/apps/details?id=com.game.space.shooter2&hl=pl&gl=US) 
   
-  Gameplay: [Gameplay](https://www.youtube.com/watch?v=uTrWC0BZ3ZA&ab_channel=MoonGirlGaming)
+  Gameplay: [Gameplay](https://www.youtube.com/watch?v=gOrwlsVA4OM&ab_channel=Pharmit24)
   
+  ### Pitch
+  Fight through endless waves of enemies, dodge their bullets, and score as much points as you can.
+  
+  ### Bibliography
+  Udemy - [Link](https://www.udemy.com/course/unitycourse/]
