@@ -17,6 +17,7 @@ public class UIDisplay : MonoBehaviour
     void Awake()
     {
        scoreKeeper = FindObjectOfType<ScoreKeeper>();
+       scoreKeeper.ResetScore();
     }
     void Start()
     {
