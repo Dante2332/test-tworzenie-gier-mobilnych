@@ -486,6 +486,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 125219939464761046, guid: ec9dadba1b3e1b54fba862475c4894e8, type: 3}
+      propertyPath: moveSpeed.y
+      value: 0.02
+      objectReference: {fileID: 0}
     - target: {fileID: 125219939652821101, guid: ec9dadba1b3e1b54fba862475c4894e8, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -533,6 +537,10 @@ PrefabInstance:
     - target: {fileID: 125219939652821102, guid: ec9dadba1b3e1b54fba862475c4894e8, type: 3}
       propertyPath: m_Name
       value: Background
+      objectReference: {fileID: 0}
+    - target: {fileID: 125219940669671169, guid: ec9dadba1b3e1b54fba862475c4894e8, type: 3}
+      propertyPath: moveSpeed.y
+      value: 0.01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec9dadba1b3e1b54fba862475c4894e8, type: 3}
@@ -999,7 +1007,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2104562779}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5817665301180332701, guid: a8bf75f779f9fac4fb58214ddfaad3e1, type: 3}
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
+        m_MethodName: QuitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2104562779
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1121,7 +1141,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2107352619}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5817665301180332701, guid: a8bf75f779f9fac4fb58214ddfaad3e1, type: 3}
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
+        m_MethodName: LoadGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2107352619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1160,3 +1192,60 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2107352616}
   m_CullTransparentMesh: 1
+--- !u!1001 &8922392037448059279
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7043667280206450983, guid: a8bf75f779f9fac4fb58214ddfaad3e1, type: 3}
+      propertyPath: m_Name
+      value: LevelManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979576753864313701, guid: a8bf75f779f9fac4fb58214ddfaad3e1, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979576753864313701, guid: a8bf75f779f9fac4fb58214ddfaad3e1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 88.193245
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979576753864313701, guid: a8bf75f779f9fac4fb58214ddfaad3e1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 274.68295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979576753864313701, guid: a8bf75f779f9fac4fb58214ddfaad3e1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.41307727
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979576753864313701, guid: a8bf75f779f9fac4fb58214ddfaad3e1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979576753864313701, guid: a8bf75f779f9fac4fb58214ddfaad3e1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979576753864313701, guid: a8bf75f779f9fac4fb58214ddfaad3e1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979576753864313701, guid: a8bf75f779f9fac4fb58214ddfaad3e1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979576753864313701, guid: a8bf75f779f9fac4fb58214ddfaad3e1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979576753864313701, guid: a8bf75f779f9fac4fb58214ddfaad3e1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979576753864313701, guid: a8bf75f779f9fac4fb58214ddfaad3e1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a8bf75f779f9fac4fb58214ddfaad3e1, type: 3}
